@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'weatbot'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_8cdec2a94e434a1ea3813bbd72d0139f }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_b94a7120c4884518a5c3be256c217be6 }}
