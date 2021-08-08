@@ -11,7 +11,7 @@ nest_asyncio.apply()
 app = Flask(__name__)
 loop = asyncio.get_event_loop()
 
-bot_settings = BotFrameworkAdapterSettings("", "")
+bot_settings = BotFrameworkAdapterSettings("9048dd11-58be-4928-ba9b-1e9ee1cdbbdc", "testbot")
 bot_adapter = BotFrameworkAdapter(bot_settings)
 
 #CON_MEMORY = ConversationState(MemoryStorage())
